@@ -1,0 +1,37 @@
+/* Join Our Team */
+
+.JoinOurTeam {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(121, 180, 183);
+    justify-content: center;
+    align-items: center;
+}
+
+.FormJoinOurTeam
+{
+    
+    background-color:rgb(121, 180, 183);
+    color:white;
+    font-size: 25px;
+    font-family:'Raleway', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    width: 50vh;
+}
+
+.form-group {
+    width: 100vh;
+    margin-left: 50vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+
+.carousel {
+    width:640px;
+    height:360px;
+    margin-left: 25%;
+    
+}

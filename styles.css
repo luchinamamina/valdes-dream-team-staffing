@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap");
+@media (min-width: 451) and (max-width: 540px) {
+  body {
+    background: #f7f3eb;
+  }
+}
+@media (min-width: 541) and (max-width: 768) {
+  body {
+    background: #f7f3eb;
+  }
+}
+@media (min-width: 769) and (max-width: 1024) {
+  body {
+    background: #f7f3eb;
+  }
+}
+/* index */
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 12%;
+  position: relative;
+  font-size: 15px;
+  color: black;
+}
+
+ul li a:hover {
+  background-color: #28b9dd;
+  color: white;
+  padding: 4px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.menu__nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+.menu__title {
+  color: #2a9d8f;
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+  text-align: left;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-align: bottom;
+  height: 10vh;
+  justify-content: bottom;
+}
+
+.menu__section2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  background-color: #58a5a5;
+  height: 250px;
+  align-content: center;
+  padding-top: 1%;
+}
+
+.menu__section3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  height: 60vh;
+  background-color: #79b4b7;
+  padding-top: 1%;
+  width: 100%;
+}
+
+.index {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel {
+  width: 640px;
+  height: 360px;
+  margin-left: 25%;
+}
+
+/* Who We Are */
+.gridTeam {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: "WhoWeAre" "MeetTheTeam";
+  width: 100%;
+  height: 90vh;
+  grid-row-gap: 10px;
+  padding: 10px;
+  justify-items: space-between;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.WhoWeAre {
+  grid-area: WhoWeAre;
+  background-color: #79b4b7;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2;
+}
+
+.MeetTheTeam {
+  grid-area: MeetTheTeam;
+  background-color: #79b4b7;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Our Services */
+.gridservices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "findtalent findajob";
+  width: 100%;
+  height: 90vh;
+  grid-column-gap: 10px;
+  padding: 10px;
+  justify-items: space-between;
+}
+
+.findtalent {
+  grid-area: findtalent;
+  text-align: left;
+  text-justify: auto;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: #58a5a5;
+}
+
+.findajob {
+  grid-area: findajob;
+  background-color: #79b4b7;
+  line-height: 1.5;
+}
+
+.JobOpeningsList {
+  display: list-item;
+  line-height: 1.5;
+  color: white;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Join Our Team */
+.JoinOurTeam {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #79b4b7;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormJoinOurTeam {
+  background-color: #79b4b7;
+  color: white;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  width: 50vh;
+}
+
+.form-group {
+  width: 100vh;
+  margin-left: 50vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.carousel {
+  width: 640px;
+  height: 360px;
+  margin-left: 25%;
+}
+
+/* Contact Us */
+.ContactUs {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #79b4b7;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.FormContactUs {
+  background-color: #79b4b7;
+  color: white;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
+
+.DatosContacto {
+  display: list-item;
+  line-height: 1.5;
+  color: white;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f3eb;
+}
+body h1 {
+  color: #ada9a9;
+  font-family: "Raleway", sans-serif;
+  font-size: 55px;
+  font-weight: bolder;
+}
+body h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+}
+body h3 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+body h4 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+}
+body h5 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+header {
+  text-align: right;
+  height: 150px;
+  padding: 10px;
+}
+
+table {
+  border: 2px solid;
+  background-color: honeydew;
+}
+
+form {
+  justify-content: space-evenly;
+  background-color: #79b4b7;
+  color: white;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* index */
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 12%;
+  position: relative;
+  font-size: 15px;
+  color: black;
+}
+
+ul li a:hover {
+  background-color: #28b9dd;
+  color: white;
+  padding: 4px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.menu__nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+.menu__title {
+  color: #2a9d8f;
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+  text-align: left;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  font-weight: bolder;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-align: bottom;
+  height: 10vh;
+  justify-content: bottom;
+}
+
+.menu__section2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  background-color: #58a5a5;
+  height: 250px;
+  align-content: center;
+  padding-top: 1%;
+}
+
+.menu__section3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  height: 70vh;
+  background-color: #79b4b7;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0%;
+}
+
+.slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0%;
+}
+
+.index {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel {
+  width: 500px;
+  height: 425px;
+  margin: 0%;
+}
+
+/* Our Services */
+.gridservices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "findtalent findajob";
+  width: 100%;
+  height: 90vh;
+  grid-column-gap: 10px;
+  padding: 10px;
+  justify-items: space-between;
+}
+
+.findtalent {
+  grid-area: findtalent;
+  text-align: left;
+  text-justify: auto;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: #79b4b7;
+}
+
+.findajob {
+  grid-area: findajob;
+  background-color: #79b4b7;
+  line-height: 1.5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.JobOpeningsList {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  color: white;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Who We Are */
+.gridTeam {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: "WhoWeAre" "MeetTheTeam";
+  width: 100%;
+  height: 90vh;
+  grid-row-gap: 10px;
+  padding: 10px;
+  justify-items: space-between;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.WhoWeAre {
+  grid-area: WhoWeAre;
+  background-color: #79b4b7;
+  text-align: left;
+  text-justify: auto;
+  line-height: 2;
+  padding: 20px;
+}
+
+.MeetTheTeam {
+  grid-area: MeetTheTeam;
+  background-color: #79b4b7;
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Contact Us */
+.ContactUs {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #79b4b7;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.FormContactUs {
+  background-color: #79b4b7;
+  color: white;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
+
+.DatosContacto {
+  display: list-item;
+  line-height: 1.5;
+  color: white;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Join Our Team */
+.JoinOurTeam {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #79b4b7;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+}
+
+.FormJoinOurTeam {
+  background-color: #79b4b7;
+  color: white;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  width: 30vh;
+}
+
+.form-group {
+  width: 40vh;
+  margin-left: 0%;
+}
+
+/*# sourceMappingURL=styles.css.map */

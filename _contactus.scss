@@ -1,0 +1,29 @@
+/* Contact Us */
+
+.ContactUs {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(121, 180, 183);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.FormContactUs {
+    
+    background-color:rgb(121, 180, 183);
+    color:white;
+    font-size: 25px;
+    font-family:'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+.DatosContacto {
+    display:list-item;
+    line-height: 1.5;
+    color:white;
+    font-size: 25px;
+    font-family:'Raleway', sans-serif;
+    
+    
+}
