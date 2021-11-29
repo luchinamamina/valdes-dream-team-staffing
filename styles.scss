@@ -141,13 +141,15 @@ a {
 }
 
 footer {
-    font-family:'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     text-align: bottom;
-    height:10vh;
-    justify-content: bottom;
-
-
+    justify-content: space-between;
+    padding: 10px;
+    
 }
 
 .menu__section2 {
@@ -289,6 +291,9 @@ footer {
     padding: 0 8px;
 }
 
+.button {
+    background-color:rgb(42, 157, 143);
+}
 
 /* Contact Us */
 

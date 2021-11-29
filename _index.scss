@@ -71,16 +71,17 @@ footer {
     font-family:'Raleway', sans-serif;
     font-size: 25px;
     text-align: center;
-    height: 60vh;
+    height: 70vh;
     background-color:rgb(121, 180, 183);
-    padding-top: 1%;
     width: 100%;
-    
-}
-
-.index {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0%;
+    
 }
 
 .carousel {

@@ -32,7 +32,8 @@
 }
 
 .JobOpeningsList {
-    display:list-item;
+    display:flex;
+    flex-direction: column;
     line-height: 1.5;
     color:white;
     font-size: 15px;
