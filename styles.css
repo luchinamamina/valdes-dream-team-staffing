@@ -14,9 +14,63 @@
     background: #f7f3eb;
   }
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f3eb;
+}
+body h1 {
+  color: #ada9a9;
+  font-family: "Raleway", sans-serif;
+  font-size: 55px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+body h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  padding-top: 20px;
+}
+body h3 {
+  color: #94d1d1;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+body h4 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+}
+body h5 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+header {
+  text-align: right;
+  height: 50px;
+  padding: 10px;
+}
+
+
+form {
+  justify-content: space-evenly;
+  color: white;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
 /* index */
-
-
 
 ul {
   list-style: none;
@@ -89,91 +143,41 @@ footer {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   text-align: bottom;
-  justify-content: space-between;
+  justify-content:center;
   padding: 10px;
   
 }
-
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f7f3eb;
-}
-body h1 {
-  color: #ada9a9;
-  font-family: "Raleway", sans-serif;
-  font-size: 55px;
-  font-weight: bolder;
-}
-body h2 {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  font-size: 40px;
-}
-body h3 {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  font-size: 25px;
-}
-body h4 {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  font-size: 35px;
-}
-body h5 {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
-
-header {
-  text-align: right;
-  height: 50px;
-  padding: 10px;
-}
-
-
-form {
-  justify-content: space-evenly;
-  color: white;
-  font-size: 15px;
-  font-family: "Raleway", sans-serif;
-}
-
 
 /* Our Services */
 .services {
   display: flex;
   flex-direction: row;
-  justify-items: space-around;
-  padding: 10px;
+  justify-content: space-between;
+  background-color: #94d1d1;
+  
 }
 
 .findtalent {
-  text-align: left;
-  text-justify: auto;
+  text-align: center;
   line-height: 1.5;
-  background-color: #94d1d1;;
+  padding: 10px;
+  justify-self: left;
 }
 
 .findajob {
-  background-color: #94d1d1;;
-  line-height: 1.5;
-
-}
+  line-height: 2;
+  padding: 10px;
+  text-align: center;
+  }
 
 .JobOpeningsList {
   display: flex;
   flex-direction: column;
-  line-height: 1.5;
+  line-height: 2;
   color: white;
   font-size: 15px;
   font-family: "Raleway", sans-serif;
+  justify-content: space-between;
 }
 
 /* Who We Are */
@@ -222,6 +226,10 @@ form {
   border: 2px solid;
 }
 
+.container {
+  width: auto;
+}
+
 /* Contact Us */
 .ContactUs {
   height: 90vh;
@@ -253,13 +261,13 @@ form {
 
 /* Join Our Team */
 .JoinOurTeam {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: end;
   align-items: center;
   padding: 30px;
-  background-image: url("media/join-our-team-text-lightbox-composition-white-table-background-business-concept_34933-305.jpeg");
+  background-image: url("media/image-from-rawpixel-id-981821-jpeg.jpg");
   background-position: center;
   background-size: cover;
 }

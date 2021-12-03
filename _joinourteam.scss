@@ -1,38 +1,28 @@
 /* Join Our Team */
-
 .JoinOurTeam {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
-    background-color:rgb(121, 180, 183);
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    background-image: url("media/join-our-team-text-lightbox-composition-white-table-background-business-concept_34933-305.jpeg")
+    padding: 30px;
+    background-image: url("media/image-from-rawpixel-id-981821-jpeg.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-.FormJoinOurTeam
-{
-    
-    background-color:rgb(121, 180, 183);
-    color:white;
+.FormJoinOurTeam {
+    color: "black";
     font-size: 25px;
-    font-family:'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     line-height: 1.5;
     text-align: center;
-    width: 50vh;
+    width: 30vh;
 }
 
 .form-group {
-    width: 100vh;
+    width: 40vh;
     margin-left: 50vh;
     padding-top: 2vh;
     padding-bottom: 2vh;
-}
-
-
-.carousel {
-    width:640px;
-    height:360px;
-    margin-left: 25%;
-    
 }

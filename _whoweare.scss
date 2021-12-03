@@ -1,32 +1,36 @@
 /* Who We Are */
-
 .gridTeam {
-    display:grid;
-    grid-template-rows: 1fr 2fr;
-    grid-template-areas: "WhoWeAre"
-                            "MeetTheTeam";
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 90vh;
-    grid-row-gap: 10px;
     padding: 10px;
     justify-items: space-between;
-    font-family:'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     color: white;
+    padding: 20px;
+
 }
 
 .WhoWeAre {
-    grid-area: WhoWeAre;
-    background-color:rgb(121, 180, 183);
-    text-align: left;
+    background-color: #94d1d1;
+    ;
+    color: white;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
     text-justify: auto;
     line-height: 2;
-
+    padding: 20px;
 }
 
-.MeetTheTeam{
-    grid-area: MeetTheTeam;
-    background-color:rgb(121, 180, 183);
+.MeetTheTeam {
+    background-color: #94d1d1;
+    ;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    color: white;
 
 }
 
@@ -38,5 +42,10 @@
 }
 
 .button {
-    background-color:rgb(42, 157, 143);
+    background-color: #94d1d1;
+    border: 2px solid;
+}
+
+.container {
+    width: auto;
 }

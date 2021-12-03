@@ -10,84 +10,70 @@ li {
     position: relative;
     font-size: 15px;
     color: black;
-    
 }
 
 ul li a:hover {
-    background-color: rgb(40, 185, 221);
+    background-color: #28b9dd;
     color: white;
     padding: 4px;
-
 }
 
 a {
-	display:inline-block;
+    display: inline-block;
     text-decoration: none;
-	padding: 4px;
-    
+    padding: 4px;
 }
 
-.menu__nav{
-    font-family:'Raleway', sans-serif;
+.menu__nav {
+    font-family: "Raleway", sans-serif;
     font-size: 15px;
     height: auto;
 }
+
 .menu__title {
-    color: rgb(42, 157, 143);
-    font-family:'Raleway', sans-serif;
+    color: #94d1d1;
+    font-family: "Raleway", sans-serif;
     font-size: 70px;
     text-align: left;
     animation-duration: 3s;
     animation-name: aparecer;
-
 }
 
 @keyframes aparecer {
-    0% { opacity: 0;
-}
-    100% { opacity: 1;
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 
-footer {
-    font-family:'Raleway', sans-serif;
-    font-size: 20px;
-    text-align: bottom;
-    height:10vh;
-    justify-content: bottom;
-
-}
-
 .menu__section2 {
-    font-family:'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 25px;
     text-align: center;
-    background-color: rgb(88, 165, 165);
-    height: 250px;
+    background-color: #94d1d1;
+    height: 400px;
     align-content: center;
     padding-top: 1%;
 }
 
-.menu__section3 {
-    font-family:'Raleway', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    height: 70vh;
-    background-color:rgb(121, 180, 183);
-    width: 100%;
+.clients {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0%;
-    
+    height: 200px;
 }
 
-.carousel {
-    width:640px;
-    height:360px;
-    margin-left: 25%;
-    
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    text-align: bottom;
+    justify-content: center;
+    padding: 10px;
+
 }

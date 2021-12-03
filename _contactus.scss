@@ -1,30 +1,28 @@
 /* Contact Us */
-
 .ContactUs {
-    height: 60vh;
+    height: 90vh;
     display: flex;
     flex-direction: row;
-    background-color:rgb(121, 180, 183);
-    justify-content: space-evenly;
+    background-color: #94d1d1;
+    justify-content: space-between;
     align-items: center;
+    padding: 5%;
+    margin: auto;
 }
 
+
 .FormContactUs {
-    
-    background-color:rgb(121, 180, 183);
-    color:white;
+    background-color: #94d1d1;
+    color: white;
     font-size: 25px;
-    font-family:'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     line-height: 1.5;
 }
 
 .DatosContacto {
-    display:flex;
-    flex-direction: column;
+    display: list-item;
     line-height: 1.5;
-    color:white;
+    color: white;
     font-size: 25px;
-    font-family:'Raleway', sans-serif;
-    
-    
+    font-family: "Raleway", sans-serif;
 }

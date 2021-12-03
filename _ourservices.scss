@@ -1,42 +1,31 @@
 /* Our Services */
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #94d1d1;
 
-
-.gridservices {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "findtalent findajob";
-    width: 100%;
-    height: 90vh;
-    grid-column-gap: 10px;
-    padding: 10px;
-    justify-items: space-between;
 }
 
 .findtalent {
-    grid-area: findtalent;
-    text-align: left;
-    text-justify: auto;
+    text-align: center;
     line-height: 1.5;
-    padding-left: 20px;
-    padding-top: 20px;
-    background-color: #58a5a5;
+    padding: 10px;
+    justify-self: left;
 }
 
-
 .findajob {
-    grid-area: findajob;
-    background-color:rgb(121, 180, 183);
-    line-height: 1.5;
-    
-
+    line-height: 2;
+    padding: 10px;
+    text-align: center;
 }
 
 .JobOpeningsList {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    line-height: 1.5;
-    color:white;
+    line-height: 2;
+    color: white;
     font-size: 15px;
-    font-family:'Raleway', sans-serif;
-    
+    font-family: "Raleway", sans-serif;
+    justify-content: space-between;
 }
